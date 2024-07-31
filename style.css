@@ -1,0 +1,11 @@
+@import url(cabecalho.css);
+@import url(corpo.css);
+@import url(footer.css);
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+}

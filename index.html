@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="short cut icon" href="/img/good-guy.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Killers DBD</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="container-barra-pesquisa">
+            <input type="search" name="barra-pesquisa" id="barra-pesquisa" placeholder="faça sua pesquisa.." class="caixa-pesquisa">
+            <img src="/img/Lupa.svg" class="img-lupa">
+        </nav>
+    </header>
+    <main>
+        <section class="apresentacao-geral">
+            <h1 class="titulo-piloto">Killers Dead By Daylight</h1>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="/img/ghostface.jpeg"></div>
+                <div class="swiper-slide"><img src="/img/mmyers.jpeg"></div>
+                <div class="swiper-slide"><img src="/img/bubba.jpeg"></div>
+                <div class="swiper-slide"><img src="/img/good-guy.jpeg"></div>
+                <div class="swiper-slide"><img src="/img/pig.jpeg"></div>
+                <div class="swiper-slide"><img src="/img/samara.jpeg"></div>
+                <div class="swiper-slide"><img src="/img/legion.jpeg"></div>
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+  
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+  
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+
+        <section class="segunda-apresentacao">
+            <div class="conteudo-descritivo">
+                <h2 class="titulo-segunda-parte">Um pouco sobre o <span>Dead By Daylight</span></h2>
+                <p class="paragrafo"><span class="span-dois">Dead By Daylight</span> é um jogo de terror online. É um jogo de estratégia e trabalho em equipe cujo objetivo dos sobreviventes é escapar do mapa, já o objetivo do <span class="span-tres">killer</span> é não deixar sobreviventes.
+                                 Parece um tanto clichê mas esse jogo vai te oferecer uma gameplay com adrenalina a mil (falo isso por experiência própria). Não é recomendado para cardíacos.
+                                 A melhor parte é que o jogo oferece a possibilidade de criar um lobby e convidar seus amigos para jogar juntos em uma sessão. Contém crossplay. Simplesmente incrível. 
+                </p>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 2,
+            spaceBetween: 2,
+            loop: true,
+        });
+    </script>
+
+    <footer class="rodape">
+        <nav class="rodape-container">
+            <p class="paragrafo-footer">Desenvolvido por Gabriel</p>
+            <a href="https://gabriel-software-engineer-sobre-mim.vercel.app/" class="link-sobre-mim">Sobre mim</a>
+        </nav>
+    </footer>
+</body>
+</html>

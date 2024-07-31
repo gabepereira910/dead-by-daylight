@@ -1,0 +1,24 @@
+.rodape {
+    padding: 1.2em;
+    background-color: black;
+    
+}
+
+.rodape-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    justify-content: center;
+    text-align: center;
+}
+
+.paragrafo-footer {
+    color: red;
+    font-weight: 500;
+}
+
+.link-sobre-mim {
+    color: red;
+    font-weight: 500;
+    text-decoration: none;
+}
